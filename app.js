@@ -11,7 +11,10 @@ app.get('/mostrar_mensaje', (req,res) =>{
 });
 
 
-//app.use(express.static(path.resolve(__dirname, './views')));
+app.get('*',(req,res)=>{
+    res.send("Ruta restringida, hemos localizado la dirección de su computador");
+});
+
 
 app.listen(process.env.PORT || 3000 , function () {
     console.log("Servidor corriendo");
