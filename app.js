@@ -16,6 +16,6 @@ app.get('*',(req,res)=>{
 
 //app.use(express.static(path.resolve(__dirname, './views')));
 
-app.listen(3025, () => {
-console.log("Servidor corriendo");
+app.listen(process.env.PORT || 3000 , function () {
+    console.log("Servidor corriendo");
 });
