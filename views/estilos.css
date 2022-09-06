@@ -268,14 +268,14 @@ footer{
   @media (min-width: 361px) and (max-width: 769px)  {
     body{
         max-width: 769px;
-        min-width: 200px;
-        right: 0%;
-
+        min-width: 361px;
+        width: 0%;
     }
 
     footer{
-        max-width: 769px;
-        min-width: 200px;
+        position: absolute;
+        width: 100vw;
+        height:20vh;
     }
 
     p.anuncio{
@@ -288,9 +288,8 @@ footer{
 
     .caja1{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         max-width: 768px;
-        right: 0%;
 
     }
 
