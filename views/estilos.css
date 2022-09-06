@@ -299,7 +299,7 @@ footer{
     main{
         display: flex;
         flex-direction: column;
-        right:0%;
+        right:95%;
     }
 
     img#banner{
@@ -310,6 +310,10 @@ footer{
     .visitas{
         display: flex;
         justify-content: flex-end;
+    }
+
+    p.estilo-x{
+        font-size: 8px;
     }
 }
 
