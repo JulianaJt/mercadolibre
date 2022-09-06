@@ -9,6 +9,10 @@ body{
 
 }
 
+* {
+    box-sizing: border-box;
+  }
+
 
 
 
@@ -260,34 +264,48 @@ footer{
 
 
 
-  /* Extra small devices (phones, 600px and down) */
-/* Small devices (portrait tablets and large phones, 600px and up) */
-
-  
-@media  (min-width: 768px) and (max-width: 800px) {
-    body{
-        font-size: 12px;
-    }
-    p{
-        font-size: 1em+1vw;
-    }
-
-    img{
-        width: 300px;
-        height: 1000px;
-    }
-
-    .caja{
-        position: fixed;
-    }
-
-
-  }
-
   /* iPhone 4 and high pixel ratio devices ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) { }
+  @media (min-width: 361px) and (max-width: 769px)  {
+    body{
+        max-width: 769px;
+        min-width: 361px;
+        width: 0%;
+    }
 
+    footer{
+        position: absolute;
+        width: 100vw;
+        height:20vh;
+    }
+
+    p.anuncio{
+        font-size: 22px;
+    }
+
+    #inicio{
+        display:none;
+    }
+
+    .caja1{
+        display: flex;
+        justify-content: center;
+        max-width: 768px;
+
+    }
+
+    #segundalinea{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        right:0%;
+    }
+
+    img#banner{
+        max-width: 768px;
+    }
+}
 
 
