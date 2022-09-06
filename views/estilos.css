@@ -305,6 +305,7 @@ footer{
 
     img#banner{
         max-width: 768px;
+        min-width: 361px;
     }
 }
 
