@@ -268,14 +268,13 @@ footer{
   @media (min-width: 361px) and (max-width: 769px)  {
     body{
         max-width: 769px;
-        min-width: 361px;
+        min-width: 200px;
         width: 0%;
     }
 
     footer{
-        position: absolute;
-        width: 100vw;
-        height:20vh;
+        max-width: 768px;
+        min-width: 361px;
     }
 
     p.anuncio{
