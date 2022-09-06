@@ -274,7 +274,7 @@ footer{
 
     footer{
         max-width: 768px;
-        min-width: 361px;
+        min-width: 100vw;
     }
 
     p.anuncio{
