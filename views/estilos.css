@@ -335,17 +335,21 @@ footer{
         display: flex;
         flex-direction: column;
         background-color: #ebebeb;
-        margin-right: 0%;
+        margin-right: 0px;
+        margin-top: 0px;
+        width: 92%
     }
     
     .visitas123{
         display: flex;
         flex-direction: row;
+        width: 320vw;
+
     }
     
     
     section.caja{
-        width:30vh;
+
         display: flex;
         border: solid 1px #ebebeb;
         margin: 15px 15px 15px 15px;
