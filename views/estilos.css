@@ -264,7 +264,7 @@ footer{
 
 
   /* iPhone 4 and high pixel ratio devices ----------- */
-  @media (min-width: 361px) and (max-width: 769px)  {
+  @media (max-width: 361px)  {
     body{
         max-width: 769px;
         min-width: 200px;
