@@ -176,19 +176,18 @@ p{
     display: flex;
     flex-direction: row;
 }
-.caja{
-    
+
+
+section.caja{
     width:30vh;
     display: flex;
     border: solid 1px #ebebeb;
     margin: 15px 15px 15px 15px;
     flex-direction: column;
-    
-    
 }
 
 
-.caja1{
+section.caja1{
     
     width:70vw;
     height: 40vh;
@@ -272,21 +271,53 @@ footer{
         width: 0%;
     }
 
+    
+    * {
+        box-sizing: border-box;
+    }
+
     footer{
         max-width: 768px;
-        min-width: 100vw;
+        width: 100vw;
+        margin-right: 0px;
+
     }
 
     p.anuncio{
         font-size: 22px;
+        z-index: 100;
+        margin-right: 30px;
     }
+
+    img.imagen2{
+        position: absolute;
+        left: 0px;
+        width: 60vw;
+        height: 40vh;
+
+    }
+
+    section.caja1{
+    
+        width:100vw;
+        height: 40vh;
+        display: flex;
+        border: solid 1px #1259c3;
+        background-color: #ebebeb;
+        margin-left: 0px;
+        flex-direction: row;
+        
+        
+    }
+
+ 
 
     #inicio{
         display:none;
     }
 
     .caja1{
-        display: flex;
+        display: grid;
         justify-content: center;
         max-width: 100vw;
 
@@ -309,12 +340,12 @@ footer{
 
     .visitas{
         display: flex;
-        justify-content: flex-end;
+        margin-right: 0%;
+
     }
 
-    p.estilo-x{
-        font-size: 8px;
-    }
-}
+  }
+
+
 
 
