@@ -284,14 +284,14 @@ footer{
 
     footer{
 
-        width: 230vw;
+        width: 235vw;
         margin-right: 0px;
 
 
     }
 
     p.anuncio{
-        font-size: 50px;
+        font-size: 40px;
         z-index: 100;
         font-family: fantasy;
         margin-left: 125px;
@@ -341,7 +341,7 @@ footer{
     }
 
     img#banner{
-        width:230vw;
+        width:235vw;
     }
 
     h2{
