@@ -264,7 +264,7 @@ footer{
 
 
   /* iPhone 4 and high pixel ratio devices ----------- */
-  @media screen and (max-width: 768px)  {
+  @media  (max-width: 768px),  handheld and (orientation: landscape) {
     body{
 
         padding: 0em;
