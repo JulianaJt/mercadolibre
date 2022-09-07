@@ -354,8 +354,8 @@ footer{
         display: flex;
         flex-direction: row;
 
-        margin-right: 0%;
-        width: 0%;
+        margin: 0px 0px 0px 0px;
+        width: 30%;
     }
     
     .visitas123{
@@ -367,7 +367,7 @@ footer{
     section.caja{
         width:30vh;
         display: flex;
-        border: solid 1px #ebebeb;
+
         margin: 15px 15px 15px 15px;
         flex-direction: column;
     }
